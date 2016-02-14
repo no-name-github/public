@@ -13,7 +13,7 @@
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                <a href="#/services">Services</a>
+                <a href="#/singleTab">Sample Tab</a>
                 </li>
             </ul>
         </div>
