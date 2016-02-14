@@ -7,8 +7,8 @@ var app = angular.module('tutorialWebApp', [
 app.config(['$routeProvider', function ($routeProvider) {
   $routeProvider
     // Home
-    .when("/", {templateUrl: "tab/lobby.html", controller: "PageCtrl"})
-    .when("/singleTab", {templateUrl: "tab/singleTab.html", controller: "PageCtrl"})
+    .when("/", {templateUrl: "tabs/lobby.html", controller: "PageCtrl"})
+    .when("/singleTab", {templateUrl: "tabs/singleTab.html", controller: "PageCtrl"})
 }]);
 /**
  * Controls all other Pages
