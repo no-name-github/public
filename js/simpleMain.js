@@ -7,7 +7,7 @@ var app = angular.module('tutorialWebApp', [
 app.config(['$routeProvider', function ($routeProvider) {
   $routeProvider
     // Home
-    .when("/", {templateUrl: "tab/lobby.html", controller: "PageCtrl"})
+    .when("/", {templateUrl: "tab/home.html", controller: "PageCtrl"})
     .when("/singleTab", {templateUrl: "tab/singleTab.html", controller: "PageCtrl"})
 }]);
 /**
