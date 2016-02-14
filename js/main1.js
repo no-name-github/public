@@ -11,6 +11,8 @@ app.config(['$routeProvider', function ($routeProvider) {
     // Pages
     .when("/tabA", {templateUrl: "tabs/tabA.html", controller: "PageCtrl"})
     .when("/tabB", {templateUrl: "tabs/tabB.html", controller: "PageCtrl"})
+    .when("/tabA", {templateUrl: "tabs/tabC.html", controller: "PageCtrl"})
+    .when("/tabB", {templateUrl: "tabs/tabD.html", controller: "PageCtrl"})
 }]);
 /**
  * Controls all other Pages
